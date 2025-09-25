@@ -1,0 +1,36 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic[email]
+passlib[bcrypt]
+bcrypt==4.0.1
+python-jose 
+pymongo
+motor
+certifi
+python-multipart
+
+
+# Gemini API
+google-genai
+
+# Markdown rendering
+markdown2
+
+# LangChain for RAG
+langchain
+langchain-community
+langchain-google-genai
+chromadb
+
+# File handling
+python-docx
+pypdf  # Required for PyPDFLoader in LangChain
+PyPDF2  # Alternative PDF library
+pdfminer.six  # Additional PDF processing support
+
+# Vector storage
+tiktoken  # tokenizer required by LangChain text splitters
+
+# Optional: For persistent Chroma DB with FAISS fallback
+faiss-cpu  # optional, depends on backend
